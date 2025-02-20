@@ -17,18 +17,6 @@
     display: flex;
     gap: 10px;
 
-    & .pricing{
-      padding: 25px;
-      background-color: #fff;
-      border-radius: 5px;
-      margin-bottom: 10px;
-
-      & .checkboxs{
-        display: flex;
-        flex-direction: column;
-        margin-top: 15px;
-      }
-    }
     & .customize{
       background-color: #fff;
       border-radius: 5px;
@@ -38,44 +26,6 @@
       & .customize-head{
         padding: 10px 25px;
         border-bottom: 1px solid #b9bcc1;
-      }
-      & .customize-border{
-        padding: 10px 25px;
-        border-bottom: 1px solid #b9bcc1;
-      }
-      & .customize-color{
-        padding: 10px 25px;
-        border-bottom: 1px solid #b9bcc1;
-      }
-      & .customize-typography{
-        padding: 10px 25px;
-      }
-    }
-    & .preview{
-      padding: 25px;
-      background-color: #fff;
-      border-radius: 5px;
-
-      & .preview-title{
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 10px;
-      }
-      & .preview-discounts{
-        & .preview-discounts-item{
-          padding: 10px 15px;
-          margin: 10px 0;
-          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          & .preview-discounts-item-left{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-          }
-        }
       }
     }
   }
